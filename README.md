@@ -4,11 +4,19 @@ We provide an overview of the usage of Workflow integrated Data Documentation.
 
 The project is intended for demonstration purposes and has the following materials included.
 
+## How to use
 
-## Included Materials
-1. Analysis ([notebook](analysis_repos.ipynb))
-2. Data collection and preparation ([python-scripts](sources))
+1. Navigate to `analysis_repos.ipynb`
+2. Navigate into a cell in Markdown format that you want to use for data documentation. 
+3. Click on Snippets -> Markdown -> SAGE WIDD
+4. Choose the relevant category that you want to add and describe.
 
+### Further ideas
+
+- tick categories that you already added [x]
+- move SAGE WIDD snippets into a singular dropdown (using custom js)
+- make installation process more straight forward
+- ...
 
 
 ## Online Analysis Environment
