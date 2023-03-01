@@ -158,6 +158,37 @@ define({
         
         
                 ]},
+                
+                                {
+            'name' : 'Construct Definition',
+            'sub-menu' : [
+
+        
+        {
+        'name' : 'For the measurement of what construct was the dataset created? ',
+        'snippet' : ['#### For the measurement of what construct was the dataset created? ',],
+        
+        },
+        
+        {
+        'name' : 'How is the construct operationalized?',
+     	'snippet' : ['#### How is the construct operationalized? Can the dataset fully grasp the construct? If not, what dimensions are left out? Have there been any attempts to evaluate the validity of the construct\'s operationalization?  ',]
+        },
+        
+        {
+        'name' : 'What related constructs could (not) be measured through the dataset?',
+        'snippet' : ['#### What related constructs could (not) be measured through the dataset? What should be considered when measuring other constructs with the dataset? ',]
+        },
+        
+        {
+        'name' : 'What is the target population? ',
+        'snippet' : ['#### What is the target population?  ',]        
+        
+
+        },
+               
+                ]},
+                
         ]},
 
     ],
