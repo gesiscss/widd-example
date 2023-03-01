@@ -16,6 +16,7 @@ The project is intended for demonstration purposes and has the following materia
 - tick categories that you already added [x]
 - move SAGE WIDD snippets into a singular dropdown (using custom js)
 - make installation process more straight forward
+- create subcategories such that sub headlines are included as well with the first entry of a given sub category.
 - ...
 
 
