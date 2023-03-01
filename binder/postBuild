@@ -1,2 +1,4 @@
-jupyter contrib nbextension install --user
-jupyter nbextension enable jupyter_boilerplate/main
+cd $(jupyter --data-dir)
+git clone https://github.com/moble/jupyter_boilerplate
+jupyter nbextension install jupyter_boilerplate --user
+jupyter nbextension enable jupyter_boilerplate/main --user
