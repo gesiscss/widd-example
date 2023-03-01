@@ -17,7 +17,7 @@ The project is intended for demonstration purposes and has the following materia
 You can execute the project online at [GESIS Notebooks](https://notebooks.gesis.org/)
 
 + To launch the analysis for one-time usage click  
-[![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/binder/v2/gh/gesiscss/api-gesis-notebooks/HEAD?urlpath=lab/tree/analysis_repos.ipynb)
+[![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/binder/v2/gh/gesiscss/api-gesis-notebooks/HEAD?urlpath=notebooks/tree)
 
 
 ## Terms of Use
