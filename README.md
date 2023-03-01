@@ -1,7 +1,6 @@
 # widd-example
 
-We provide an overview of the usage of notebooks.gesis.org from June 2019 to September 2020. The project analyses the most popular binder repositories launched via notebooks.gesis.org and the number of launches. The analysis uses data from the GESIS Notebooks [API for launch events](https://notebooks.gesis.org/gallery/api/v1.0/).
-
+We provide an overview of the usage of Workflow integrated Data Documentation.
 
 The project is intended for demonstration purposes and has the following materials included.
 
@@ -28,9 +27,3 @@ Materials are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/
 
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-
----
-
-Funded by the German Research Foundation (DFG).
-FKZ/project number:
-[324867496](https://gepris.dfg.de/gepris/projekt/324867496?context=projekt&task=showDetail&id=324867496&).

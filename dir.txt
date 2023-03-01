@@ -1,0 +1,1 @@
+cd ~/.local/share/jupyter/nbextensions/snippets_menu
