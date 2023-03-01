@@ -2,3 +2,5 @@ cd $(jupyter --data-dir)
 git clone https://github.com/moble/jupyter_boilerplate
 jupyter nbextension install jupyter_boilerplate --user
 jupyter nbextension enable jupyter_boilerplate/main --user
+
+mv -f snippets_submenu_markdown.js $(jupyter --data-dir)/nbextensions/jupyter_boilerplate/snippets_submenu_markdown.js
