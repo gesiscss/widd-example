@@ -1,4 +1,35 @@
+// addd the button
+$([Jupyter.events]).on('app_initialized.NotebookApp', function() {
+    function handleClick() {
+        alert('Button clicked!');
+    }
 
+    function load_custom_button() {
+        // add the button HTML to the toolbar
+        var toolbar = document.getElementById('maintoolbar-container');
+        if (toolbar) {
+            var button_div = document.createElement('div');
+            button_div.innerHTML = '<button>Click me!</button>';
+            toolbar.appendChild(button_div.firstChild);
+        }
+
+        // add the button callback function
+        button_div.firstChild.onclick = handleClick;
+
+    }
+
+    // wait for the Jupyter notebook app to be initialized
+    if (Jupyter.notebook.kernel) {
+        load_custom_button();
+    } else {
+        events.on('kernel_ready.Kernel', function() {
+            load_custom_button();
+        });
+    }
+});
+
+
+// customise snippets menu
 require(["nbextensions/snippets_menu/main"], function (snippets_menu) {
     console.log('Loading `snippets_menu` customizations from `custom.js`');
     var horizontal_line = '---';
