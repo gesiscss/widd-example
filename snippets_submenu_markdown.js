@@ -285,7 +285,9 @@ define({
                 'snippet' : ['#### Does the dataset provide information to adjust the results to a target population? If so, is this information inferred or self-reported? ',],
                 },
 
-            ]}
+            ]},
+
+            
                 
         ]},
 
