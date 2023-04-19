@@ -11,12 +11,22 @@ The project is intended for demonstration purposes and has the following materia
 3. Click on Snippets -> Markdown -> SAGE WIDD
 4. Choose the relevant category that you want to add and describe.
 
-### Further ideas
+### Problems
 
-- tick categories that you already added [x]
-- move SAGE WIDD snippets into a singular dropdown (using custom js)
-- make installation process more straight forward
+- How do you incorporate a button that creates a new sheet only containing these documentary questions and such a documentation sheet?
+  + This connects to the question of what exactly the workflow is going to be. Working on a project, then by the way answering the data documentation questions and ultimatively create this documentation sheet? Append it to your notebook as a page? Everything is possible with javascript: so you have a .js program that searches all the sentences (maybe use fuzzy matching) of documentation within a notebook, then paste out everything below these headlines including the headlines and paste it into a new document. This is 100% possible, only to be answered is how. As an example, consider
+    + [!this](https://stackoverflow.com/questions/58716248/how-to-create-a-simple-button-with-output-in-a-python-jupyter-notebook).
+    + [! or this] (https://www.geeksforgeeks.org/how-to-create-buttons-in-jupyter/)
+
+
+### Ideas
+
+- tick categories that you already added [x].
+- move SAGE WIDD snippets into a singular dropdown (using custom js).
+- make installation process more straight forward.
 - create subcategories such that sub headlines are included as well with the first entry of a given sub category.
+- create more sophisticated and complex cell that extends beyond merely using markdown headlines.
+- 
 - ...
 
 
