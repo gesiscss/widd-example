@@ -10,18 +10,14 @@ require(["nbextensions/snippets_menu/main"], function (snippets_menu) {
                 'name' : 'General Characteristics',
                 'sub-menu' : [
     
-            
             {
             'name' : 'Who collected the dataset?',
             'snippet' : ['#### Who collected the dataset and who funded the process?',],
-            
             },
-            
             {
             'name' : 'Where is the dataset hosted?',
              'snippet' : ['#### Where is the dataset hosted? Is the dataset distributed under a copyright or license? ',]
             },
-            
             {
             'name' : 'What do the instances that comprise the dataset represent?',
             'snippet' : ['#### What do the instances that comprise the dataset represent? What data does each instance consist of? ',]
@@ -50,47 +46,36 @@ require(["nbextensions/snippets_menu/main"], function (snippets_menu) {
             'snippet' : ['#### Can the dataset collection be readily reproduced given the current data access, the general context and other potentially interfering developments?  ',]        
            
             },
-            
-            
                     ]},
                     
                                     {
                 'name' : 'Construct Definition',
                 'sub-menu' : [
-    
-            
             {
             'name' : 'For the measurement of what construct was the dataset created? ',
             'snippet' : ['#### For the measurement of what construct was the dataset created? ',],
-            
             },
-            
             {
             'name' : 'How is the construct operationalized?',
              'snippet' : ['#### How is the construct operationalized? Can the dataset fully grasp the construct? If not, what dimensions are left out? Have there been any attempts to evaluate the validity of the construct\'s operationalization?  ',]
             },
-            
             {
             'name' : 'What related constructs could (not) be measured through the dataset?',
             'snippet' : ['#### What related constructs could (not) be measured through the dataset? What should be considered when measuring other constructs with the dataset? ',]
             },
-            
             {
             'name' : 'What is the target population? ',
             'snippet' : ['#### What is the target population?  ',]        
-            
-    
             },
-                   
                     ]},
-
                     {'name' : 'Platform Selection',
                     'sub-menu' : [
                         {'name' : 'What are the key characteristics of the platform?',
                         'snippet' : ['#### What are the key characteristics of the platform at the time of data collection? ',],
                     },
-                    {'name' : 'What are the effects of the platform\'s ToS?',
-                    'snippet' : ['#### What are the effects of the platform\'s ToS on the collected data? ',],
+                    {
+                        'name' : 'What are the effects of the platform\'s ToS?',
+                        'snippet' : ['#### What are the effects of the platform\'s ToS on the collected data? ',],
                 },
                 {'name' : 'What are the effects of the platform\'s norms?',
                 'snippet' : ['#### What are the effects of the platform\'s sociocultural norms on the collected data? ',],
