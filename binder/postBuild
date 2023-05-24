@@ -3,7 +3,10 @@ pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 jupyter nbextension enable snippets_menu/main
 
+git clone https://github.com/moble/jupyter_boilerplate $(jupyter --data-dir)/nbextensions/jupyter_boilerplate
+jupyter nbextension install jupyter_boilerplate --user
+jupyter nbextension enable jupyter_boilerplate/main
+
 git clone https://github.com/gesiscss/widd $(jupyter --data-dir)/nbextensions/widd
 jupyter nbextension install $(jupyter --data-dir)/nbextensions/widd --user
-jupyter nbextension install snippets_menu
 jupyter nbextension enable widd/main

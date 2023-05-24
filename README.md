@@ -2,31 +2,27 @@
 
 We provide an overview of the usage of Workflow integrated Data Documentation.
 
-The project is intended for demonstration purposes and has the following materials included.
+The project is intended for demonstration purposes only.
 
 ## How to use
 
 1. Navigate to `analysis_repos.ipynb`
 2. Navigate into a cell in Markdown format that you want to use for data documentation. 
-3. Click on Snippets -> Markdown -> SAGE WIDD
+3. Click on WIDD -> SAGE WIDD
 4. Choose the relevant category that you want to add and describe.
-
-### Problems
-
-- How do you incorporate a button that creates a new sheet only containing these documentary questions and such a documentation sheet?
-  + This connects to the question of what exactly the workflow is going to be. Working on a project, then by the way answering the data documentation questions and ultimatively create this documentation sheet? Append it to your notebook as a page? Everything is possible with javascript: so you have a .js program that searches all the sentences (maybe use fuzzy matching) of documentation within a notebook, then paste out everything below these headlines including the headlines and paste it into a new document. This is 100% possible, only to be answered is how. As an example, consider
-    + [!this](https://stackoverflow.com/questions/58716248/how-to-create-a-simple-button-with-output-in-a-python-jupyter-notebook).
-    + [! or this] (https://www.geeksforgeeks.org/how-to-create-buttons-in-jupyter/)
+5. repeat steps one to five, but make sure to pick one cell per chosen item.
+6. click "create WIDD"-button
+7. name the md-file to be downloaded
 
 
-### Ideas
+### Issues/ Ideas
 
-- tick categories that you already added [x].
-- move SAGE WIDD snippets into a singular dropdown (using custom js).
-- make installation process more straight forward.
-- create subcategories such that sub headlines are included as well with the first entry of a given sub category.
-- create more sophisticated and complex cell that extends beyond merely using markdown headlines.
-- 
+- [] tick off categories that you already added
+- [] output markdown or pdf?
+- [] create more sophisticated and complex cells that extends beyond merely using markdown headlines.
+- [] resolve apparent dependency of snippets_menu
+- [] change code on creation of menu to make it more efficiently working for its purpose and less similar to snippets_menu
+- [] 90% percent functionality, but get to the "Wow"-effect
 - ...
 
 
