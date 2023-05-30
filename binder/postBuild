@@ -3,9 +3,6 @@ pip install nbextensions
 pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
 
-git clone https://github.com/moble/jupyter_boilerplate $(jupyter --data-dir)/nbextensions/jupyter_boilerplate
-jupyter nbextension install jupyter_boilerplate --user
-jupyter nbextension enable jupyter_boilerplate/main
 
 git clone https://github.com/gesiscss/widd $(jupyter --data-dir)/nbextensions/widd
 jupyter nbextension install $(jupyter --data-dir)/nbextensions/widd --user
