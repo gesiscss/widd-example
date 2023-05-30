@@ -1,8 +1,7 @@
-pip install jupyter contrib nbextension install --user
+pip install nbextensions
 
+pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
-jupyter nbextension enable snippets_menu/main
-jupyter nbextension enable snippets/main
 
 git clone https://github.com/moble/jupyter_boilerplate $(jupyter --data-dir)/nbextensions/jupyter_boilerplate
 jupyter nbextension install jupyter_boilerplate --user
