@@ -1,10 +1,12 @@
 pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
+jupyter contrib nbextension install
 
 pip install jupyter_nbextensions_configurator
-jupyter nbextensions_configurator enable --user
+jupyter nbextensions_configurator enable
 
 
 git clone https://github.com/gesiscss/widd $(jupyter --data-dir)/nbextensions/widd
-jupyter nbextension install $(jupyter --data-dir)/nbextensions/widd --user
+jupyter nbextension install $(jupyter --data-dir)/nbextensions/widd
+
+jupyter nbextension enable snippets_menu/main
 jupyter nbextension enable widd/main
