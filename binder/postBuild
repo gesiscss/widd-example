@@ -10,5 +10,3 @@ jupyter nbextension enable jupyter_boilerplate/main
 git clone https://github.com/gesiscss/widd $(jupyter --data-dir)/nbextensions/widd
 jupyter nbextension install $(jupyter --data-dir)/nbextensions/widd --user
 jupyter nbextension enable widd/main
-
-
