@@ -1,5 +1,8 @@
 pip install nbextensions
+pip install jupyter_nbextensions_configurator
 jupyter contrib nbextension install --user
+
+jupyter nbextensions_configurator enable --user
 jupyter nbextension enable snippets_menu/main
 jupyter nbextension enable snippets/main
 
