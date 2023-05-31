@@ -8,3 +8,4 @@ jupyter nbextension enable widd/main
 #git clone https://github.com/moble/jupyter_boilerplate $(jupyter --data-dir)/nbextensions/jupyter_boilerplate
 #jupyter nbextension install $(jupyter --data-dir)/nbextensions/jupyter_boilerplate --user
 #jupyter nbextension enable jupyter_boilerplate/main
+
