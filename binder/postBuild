@@ -1,5 +1,5 @@
 pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install --sys-prefix
+jupyter contrib nbextension install --user
 
 git clone https://github.com/gesiscss/widd $(jupyter --data-dir)/nbextensions/widd
 jupyter nbextension install $(jupyter --data-dir)/nbextensions/widd --user
