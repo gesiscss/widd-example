@@ -15,16 +15,6 @@ The project is intended for demonstration purposes only.
 7. name the md-file to be downloaded
 
 
-### Issues/ Ideas
-
-- [] tick off categories that you already added
-- [] output markdown or pdf?
-- [] create more sophisticated and complex cells that extends beyond merely using markdown headlines.
-- [] resolve apparent dependency of snippets_menu
-- [] change code on creation of menu to make it more efficiently working for its purpose and less similar to snippets_menu
-- [] 90% percent functionality, but get to the "Wow"-effect
-- ...
-
 
 ## Online Analysis Environment
 [![GESIS Notebooks](https://notebooks.gesis.org/static/images/logo/logo_text.png)](https://notebooks.gesis.org)
