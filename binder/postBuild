@@ -1,9 +1,8 @@
-conda install -c conda-forge jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
+pip install jupyter_contrib_nbextensions
+# jupyter contrib nbextension install --user
 
-
-git clone https://github.com/gesiscss/widd srv/conda/envs/notebook/share/jupyter/nbextensions/widd
-jupyter nbextension install srv/conda/envs/notebook/share/jupyter/nbextensions/widd --user
+git clone https://github.com/gesiscss/widd $(jupyter --data-dir)/nbextensions/widd
+jupyter nbextension install $(jupyter --data-dir)/nbextensions/widd --user
 jupyter nbextension enable widd/main
 
 #git clone https://github.com/moble/jupyter_boilerplate $(jupyter --data-dir)/nbextensions/jupyter_boilerplate
