@@ -1,4 +1,5 @@
-pip install jupyter_contrib_nbextensions
+git clone https://github.com/ipython-contrib/jupyter_contrib_nbextensions.git $(jupyter --data-dir)/jupyter_contrib_nbextensions
+pip install -e --index-url $(jupyter --data-dir)/ jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 
 pip install jupyter_nbextensions_configurator
