@@ -6,13 +6,13 @@ The project is intended for demonstration purposes only.
 
 ## How to use
 
-1. Navigate to `analysis_repos.ipynb`
-2. Navigate into a cell in Markdown format that you want to use for data documentation. 
-3. Click on WIDD -> SAGE WIDD
-4. Choose the relevant category that you want to add and describe.
-5. repeat steps one to five, but make sure to pick one cell per chosen item.
-6. click "create WIDD"-button
-7. name the md-file to be downloaded
+1. Open the `widd_demo.ipynb` file.
+2. Create a new cell in the markdown format that you want to use for data documentation. 
+3. Click on WIDD in the taskbar and hover over "SAGE WIDD".
+4. Choose a category from which you would like to select a documentation question. Once you click on it, the question is pasted into the selected markdown cell. 
+5. Repeat steps 2 to 5, creating a new cell for each documentation question you would like to answer.
+6. Click the "Create WIDD"-button and insert a name.
+7. By clicking "OK", the a markdown-file containing the documentation questions as well as your answers is created and downloaded.
 
 
 
