@@ -2,7 +2,7 @@
 
 We provide an overview of the usage of Workflow integrated Data Documentation.
 
-The project is intended for demonstration purposes only. To test WIDD in a working environemnt, click on the LaunchBinder-button below and follow the steps outline in the How to use section below.
+The project is intended for demonstration purposes only. To test WIDD in a working environemnt, click on the LaunchBinder-button below and follow the steps outlined in the How to use section.
 
 ## How to use
 
